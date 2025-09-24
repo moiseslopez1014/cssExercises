@@ -1,8 +1,8 @@
 body{
-    background-color: #F7F7F7;
+    background-color: #F7F7F7; /*this changes the color, really. But looks like white, though*/
 }
 
 h1 {
-    color: darkcyan;
+    color: darkcyan; /*the title change for darkcyan and make font little bit smaller*/
     font-size: 28px;
 }
