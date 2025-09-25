@@ -1,0 +1,8 @@
+input {
+    background-color: hsl(210, 90%, 56%);
+    
+}
+
+input:hover {
+    background-color: hsla(210, 90%, 46%, 0.95);
+}
