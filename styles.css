@@ -11,3 +11,8 @@ h1 {
     border: 1px solid black;
     padding: 16px;
 }
+
+#hero {
+    min-height: 300px;
+    text-align: center;
+}
