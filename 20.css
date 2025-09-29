@@ -1,0 +1,12 @@
+nav {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+}
+
+div {
+    border-radius: 50%;
+    background-color: aliceblue;
+}
