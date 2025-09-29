@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    border: 1px solid black;
+}
+
+
+.uno {
+    background-color: antiquewhite;
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 10px;
+}
+
+.dos {
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+
