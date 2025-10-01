@@ -1,0 +1,83 @@
+body {
+  background-color: antiquewhite;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 40px;
+  gap: 20px;
+  max-width: 60%;
+}
+
+.item {
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.item1 {
+  background-color: burlywood;
+  grid-column: 1;
+  grid-row: 1;
+  font-family: "Sixtyfour";
+}
+
+.item2 {
+  background-color: rgb(128, 77, 10);
+  grid-column: 2 /4;
+  grid-row: 1;
+  font-family: "Bungee Shade";
+}
+
+.item3 {
+  background-color: rgb(104, 119, 154);
+  grid-column: 1 / 3;
+  grid-row: 2;
+  font-family: "Sixtyfour";
+}
+
+.item4 {
+  background-color: rgb(18, 136, 30);
+  font-family: "Bungee Shade";
+}
+
+.item5 {
+  background-color: rgb(86, 49, 49);
+  font-family: "Sixtyfour";
+}
+
+.item6 {
+  background-color: rgb(51, 106, 65);
+  font-family: "Bungee Shade";
+}
+
+.item7 {
+  background-color: rgb(135, 219, 222);
+  font-family: "Sixtyfour";
+}
+
+.item8 {
+  background-color: rgb(217, 0, 0);
+  grid-column: 1 / 3;
+  grid-row: 4 / 6;
+  font-family: "Bungee Shade";
+}
+
+.item9 {
+  background-color: burlywood;
+  font-family: "Sixtyfour";
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.item10 {
+  background-color: rgb(242, 220, 23);
+  grid-column: 3;
+  grid-row: 5;
+  font-family: "Bungee Shade";
+}
